@@ -15,7 +15,7 @@ SYMBOL(used to make any value unique)
 3 type of reference datatype
 ARRAY
 OBJECTS
-FUNCITONS
+FUNCTIONS
 */
 
 // Symbol

@@ -1,5 +1,5 @@
 // Truthy values
-// "0",  "false",  " ",  [],  {},  function(){}.        // anything inside a string is considered as truthy value
+// "0",  "false",  " ",  [],  {},  function(){}.  // anything inside a string is considered as truthy value
 
 //Falsy value
 // false,  0,  -0,  BigInt 0n,  "",  null,  undefined,  NaN 

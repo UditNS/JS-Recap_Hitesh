@@ -7,7 +7,7 @@ let name = "Udit"
 let profession = "software engineer"
 console.log(`hello this is ${name} and i am a ${profession}`)
 
-// String object
+// String object (new String("hell"))
 const username = new String("uditns") // here username is an object
 /*
 key value pair
@@ -37,5 +37,5 @@ console.log(url)
 
 console.log(url.includes("udit"));
 
-url.split
-// Slice can take negative values while the substring cann't take negative values
+
+// Slice can take negative values while the substring can't take negative values

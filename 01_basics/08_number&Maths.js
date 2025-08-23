@@ -13,7 +13,7 @@ console.log(numb.toString().length)
 console.log(numb.toFixed(2)); //decimal points 
 
 const num = 12.84
-console.log(num.toPrecision(5)) // return string datatype along with this only 3 digits are return.
+console.log(num.toPrecision(3)) // return string datatype along with this only 3 digits are return.
 
 // if the num is 1213 the o/p is 1.21e+3 precision is set to 3
 // if the num is 12.84 the o/p is 12.8 precision is set to 3

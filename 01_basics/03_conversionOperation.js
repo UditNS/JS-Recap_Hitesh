@@ -6,7 +6,11 @@ console.log(typeof valueInAlpha);
 
 // similarly string to number -> Number
 
-// null conversion from string to number result in 0
+// null conversion from string to number result in 0\
+let a = null
+console.log(typeof a)
+let b = Number(a)
+console.log(b)
 // undefinded conversion from string to number results in NaN
 
 // "33" -> 33

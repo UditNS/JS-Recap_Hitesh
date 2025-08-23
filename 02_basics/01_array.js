@@ -16,7 +16,7 @@ myArr.includes(43);
 myArr.indexOf(2);
 
 const nArray = myArr.join() // it binds the array into a string
-console.log(nArray) 
+console.log(nArray) // 1,2,udit,true
 console.log(typeof nArray) // returns a string
 
 
