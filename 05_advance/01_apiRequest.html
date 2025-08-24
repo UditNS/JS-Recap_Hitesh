@@ -1,0 +1,31 @@
+<!-- Ready state in XML -> 5 types -> check on documentation (important) -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>hello</h1>
+ </body>
+ <script>
+    // this method is used before fetch to get api response
+
+    const requestUrl = 'https://api.github.com/users/uditns'
+    const xhr = new XMLHttpRequest()
+    xhr.open('GET', requestUrl)
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState)
+        if(xhr.readyState === 4){
+            const data = JSON.parse(this.responseText) // convert the response text into json with 
+            // JSON.parse()
+            console.log(typeof data) // dataType is string
+            console.log(data.followers) // gives undefined because the response is string
+        }
+    }
+    xhr.send() // sends open()
+    // console operation is offically not a part of js. It is created by v8 engine which is widely used in chrome 
+
+ </script>
+ </html>
